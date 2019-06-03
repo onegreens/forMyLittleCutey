@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">你的APP</string>
+    <string name="click_me">点击我吧</string>
+    <string name="no_see_me">不想看我,就点这个</string>
+    <string name="not_click_me">不要点我了</string>
+    <string name="not_show_anything">我不会显示什么东西的</string>
+    <string name="con_not_add">还不能添加东西呢</string>
+    <string name="con_not_remove">没有删除这个功能</string>
+    <string name="to_next_page">你赢了.再点一次就给你看下个页面</string>
+    <string name="is_useless">点击是没有用的</string>
+    <string name="is_useless_again">没骗你呢,点击是没有用的</string>
+    <string name="me_true">我才是真的</string>
+    <string name="go_bai_du">去百度找找为什么</string>
+    <string name="other_way_to_bai_du">换个方式去百度</string>
+    <string name="open_this">打开咯</string>
+</resources>
