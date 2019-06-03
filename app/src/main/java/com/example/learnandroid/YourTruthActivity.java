@@ -32,4 +32,14 @@ public class YourTruthActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        //在按下返回键时 向上个页面返回
+        Intent returnIntent = new Intent();
+        RadioGroup yourResult = findViewById(R.id.your_result);
+        returnIntent.putExtra("YOUR_RETURN_WORDS", "对对对");
+        setResult(RESULT_OK, returnIntent);
+        finish();
+    }
 }
