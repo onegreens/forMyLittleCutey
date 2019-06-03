@@ -17,6 +17,15 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.first_layout);
 
+        Button theTruth = findViewById(R.id.theTruth);
+        theTruth.setOnClickListener(new View.OnClickListener() {
+            @Override //显示跳转
+            public void onClick(View v) {
+                Intent intent = new Intent(FirstActivity.this, TheTruthActivity.class);
+                startActivity(intent);
+            }
+
+        });
         Button meTrue = findViewById(R.id.meTrue);
         meTrue.setOnClickListener(new View.OnClickListener() {
             @Override//隐式跳转 需要修改AndroidManifest.xml

@@ -9,4 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/open_this" />
+    <Button
+        android:id="@+id/callSomeone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_someone" />
 </LinearLayout>

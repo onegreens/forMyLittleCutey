@@ -13,4 +13,13 @@
     <string name="go_bai_du">去百度找找为什么</string>
     <string name="other_way_to_bai_du">换个方式去百度</string>
     <string name="open_this">打开咯</string>
+    <string name="call_someone">打个电话吧</string>
+    <string name="the_truth">心里话</string>
+    <string name="say_something">说点什么吧</string>
+    <string name="guess_you">让我猜一猜</string>
+    <string name="guess_you_words">我猜你说的话是</string>
+    <string name="enter_again">告诉我</string>
+    <string name="you_say_result">你说觉得对不对</string>
+    <string name="result_true">对</string>
+    <string name="result_false">不对</string>
 </resources>

@@ -15,6 +15,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/me_true" />
+    <Button
+        android:id="@+id/theTruth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_truth" />
 
     <Button
         android:id="@+id/closeApp"
